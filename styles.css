@@ -1,0 +1,124 @@
+:root {
+    --background-color1: #ff6969; 
+    --background-color2: #c80036;
+    --background-color3: #0c1844;
+    --text-color: #fff5e1; 
+    --text-color2:var(--background-color2)
+} 
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav-bar {
+    background-color: var(--background-color2);
+    display: flex;
+    position: fixed;
+    padding: 10px 30px;
+    justify-content: flex-end;
+    width: 100%;
+    height: 80px;
+    color: var(--text-color);
+    top: 0;
+}
+ul {
+    list-style-type: none;
+    font: 0.8em Arial;
+    font-weight: 600;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+li {
+    margin-right: 25px;
+}
+#welcome-section {
+    background-color: var(--background-color3);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 800px;
+    color: var(--text-color);
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-size: 60px;
+}
+p {
+    font-size: 40px;
+    color: var(--text-color2)
+}
+#work {
+    background-color: var(--background-color1);
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+h2 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+.grid-container {
+    display: grid;
+    background-color: var(--background-color1);
+    grid-template-columns: auto auto auto;
+    column-gap: 60px;
+    row-gap: 60px;
+  }
+  .grid-items {
+    width: 25%;
+    height: 200px;
+    margin: 5px;
+    border: 1px solid #fff5e1;
+  }
+  .button {
+    width: 150px;
+    height: 40px;
+  }
+  #media {
+    background-color: var(--background-color3);
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    align-content: center;
+  }
+  h3 {
+    font-size: 70px;
+    color: var(--text-color);
+  }
+  .coffee {
+    font-size: 30px;
+  }
+  i {
+    margin-right: 10px;
+  }
+  .social-media {
+    display: flex;
+    padding-top: 30px;
+    font-size: 30px;
+    color: var(--text-color);
+    justify-content: center;
+  }
+  hr {
+    background-color: var(--background-color2);
+    width: 100%;
+    height: 5px;
+    border: none;
+  }
+  #footer {
+    background-color: var(--background-color3);
+    color: var(--text-color);
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+  }
